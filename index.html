@@ -1,0 +1,116 @@
+<!-- Instruction to the web browser what version of HTML the page uses and to know what type of document to expect -->
+<!DOCTYPE html>
+<!-- Use English -->
+<html lang='en'>
+<!-- head: container for all head elements including title, style, etc -->
+<head>
+	<!-- Including the Favorite Icon -->
+	<!-- Link to an icon that browsers display next to page's title on browser tab -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Computer Character Set - Not too Important -->
+	<!-- Metadata is information about data. Provides metadata about the HTML document. Charset is to tell the browser which character set encoding to use -->
+	<meta charset="UTF-8">
+	<!-- Description of the Website -->
+	<!-- Description of the page. The name is Codify Academy's Google Replication -->
+	<meta name="Description" content="Codify Academy's Google Replication">
+	<!-- Keywords for Document -->
+	<!-- specifies keywords relevant to page for search engines -->
+	<meta name="Keywords" content="Codify Academy, Google Replication">
+	<!-- Author of the Document -->
+	<!-- specifies name of the author of the document -->
+	<meta name="Author" content="Chris Brody @ Codify Academy">
+	<!-- Title -->
+	<!-- Title of the website that appears in browser tab -->
+	<title>Google Replica</title>
+	<!-- Font awesome -->
+	<!-- Linking to an external stylesheet for fonts -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<!-- Author Custom CSS -->
+	<!-- Linking to external style found in the css folder with the name main.css-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!-- End of head elements -->
+</head>
+<!-- defines the document's body -->
+<body>
+	<!-- Top Section - Navigation -->
+	<!-- Created unordered list that is grouped under top-navigation class that can be found in external css -->
+	<ul class="top-navigation">
+		<!-- creating a new list item in the unordered list -->
+		<li>
+			<!-- Creating a link to google with my name -->
+			<a href="https://www.google.com/">+Danube</a>
+		</li>
+		<!-- creating another list item -->
+		<li>
+			<!-- creating a link to my email -->
+			<a href="https://mail.google.com/mail/?tab=wm">Mail</a>
+		</li>
+		<li>
+			<!-- creating a link to google images -->
+			<a href="https://www.google.com/imghp?hl=en&tab=wi&ei=jtezVc6XNcq2ed_doeAL&ved=0CBQQqi4oAQ">Images</a>
+		</li>
+		<li>
+			<!-- creating a section to display menu icon -->
+			<div class="fa fa-th"></div>
+		</li>
+		<li>
+			<!-- creating a section to display bell icon -->
+			<div class="fa fa-bell-o"></div>
+		</li>
+		<li>
+			<!-- creating an in-line element to display a share button -->
+			<span class="share-button">Share</span>
+		</li>
+		<li>
+			<!-- creating a profile image from the images folder -->
+			<img class="profile-img" src="images/danube.jpg">
+		</li>
+	<!-- end of the unordered list -->
+	</ul>
+	<!-- Middle Section - Search Box -->
+	<div class="search-box">
+		<!-- add an image with google logo stored in images folder-->
+		<img src="images/google.png">
+		<!-- Add an input field where user can enter in text with a watermark in placeholder -->
+		<input type="text" autofocus placeholder="Search Google or type a URL">
+		<!-- add two buttons for searching -->
+		<div class="search-buttons">
+			<button>Google Search</button>
+			<button>I'm Feeling Lucky</button>
+		</div>
+	</div>
+	<!-- Bottom Section - Site Links -->
+	<div class="bottom-site-links">
+		<!-- Bottom Left Links -->
+		<!-- create an unordered list of links -->
+		<ul class="left-site-links">
+			<!-- creating a link for Advertising -->
+			<li>				
+				<a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+			</li>
+			<!-- creating a link for business -->
+			<li>
+				<a href="https://www.google.com/services/?fg=1">Business</a>
+			</li>
+			<li>
+				<a href="https://www.google.com/intl/en/about.html?fg=1">About</a>
+			</li>
+		</ul>
+		<!-- Bottom Right Links -->
+		<ul class="right-site-links">
+			<!-- creating a link for Privacy -->
+			<li>
+				<a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+			</li>
+			<!-- creating a link for Terms -->
+			<li>
+				<a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+			</li>
+			<!-- creating a link for Settings -->
+			<li>
+				<a href="https://www.google.com/preferences?hl=en">Settings</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
